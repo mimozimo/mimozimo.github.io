@@ -1,0 +1,97 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  background-color: WhiteSmoke;
+  padding: 0;
+  margin-top: 100px;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.header p{
+  font-size: 2em;
+  font-family:Arial ;
+  color: grey;
+}
+
+.ligne{
+  width: 100%;
+  border-bottom: 2px solid grey;
+  position: absolute;
+  top: 98px;
+}
+
+.ligne-verticale{
+  width: 2px;
+  background-color: lightgrey;
+  height: 150px;
+  position: absolute;
+  left: 109px;
+}
+
+.menu{
+  margin: 10px;
+  padding: 0px;
+  list-style-type: none; 
+}
+
+.menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none; 
+  top: 0;
+  left:  93px;
+  width: 100px;
+  display: none;
+}
+
+.menu li {
+  position: relative;
+  width: 91px;
+}
+
+.menu a {
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.menu li:hover ul {
+  display: block ;
+  position: absolute;
+  z-index: 100; 
+}
+
+.menu li a {
+  color: blue;
+} 
+.menu li:hover {
+  background-color: lightcoral;
+}
+
+.menu ul li:hover {
+  background-color: lightcoral;
+} 
+.menu ul li a {
+  color: blue;
+} 
+
+.text{
+  position: absolute;
+  width: 70%;
+  top: 120px;
+  left: 205px;
+}
+
+.text p{
+  width: 100%;
+  margin: 0;
+  color: lightgrey;
+}
